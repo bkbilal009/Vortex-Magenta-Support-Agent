@@ -1,44 +1,66 @@
 ---
-title: Support Triage Agent
-emoji: 🌖
-colorFrom: purple
-colorTo: gray
+title: Vortex-Magenta
+emoji: 🤖
+colorFrom: pink
+colorTo: purple
 sdk: gradio
-sdk_version: 6.14.0
 app_file: app.py
 pinned: false
 license: mit
-short_description: AI-powered support ticket triage system.
+short_description: High-precision Support Triage Agent for HackerRank Orchestration.
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# 🤖 Vortex-Magenta: AI Support Triage Agent
 
-# Vortex Magenta: AI Support Triage Agent 🤖
+> **"Precision in Silence. Accuracy in Action."**
+> 
+> Vortex-Magenta ek specialized Decision System hai jo **Muhammad Bilal** ne develop kiya hai. Ise specifically **HackerRank Orchestration Challenge** ke liye design kiya gaya hai taake complex support tickets ko automated Triage aur Safety Escalation ke zariye handle kiya ja sakay.
 
-Vortex Magenta is a high-performance decision system designed to automate customer support workflows with precision and safety. Unlike standard chatbots, it operates on a **Zero-Trust Data Policy**, ensuring every response is grounded in trusted documentation via Retrieval-Augmented Generation (RAG).
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Groq](https://img.shields.io/badge/Inference-Groq_Cloud-f3d122?style=for-the-badge)
+![Llama](https://img.shields.io/badge/Model-Llama_3.3_70B-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![RAG](https://img.shields.io/badge/Architecture-Zero--Trust_RAG-1C3C3C?style=for-the-badge)
 
-## 🚀 Key Features
+---
 
-- **High-Speed Inference:** Powered by **Llama 3.3 70B** through the **Groq API** for near-instant responses.
-- **RAG Integration:** Eliminates hallucinations by pulling context only from verified support documents.
-- **Safety Escalation:** An automated security layer that identifies high-risk tickets and escalates them to human agents.
-- **Bulk Processing Mode:** Capability to process hundreds of tickets via CSV upload (Tested with 100% accuracy on real-world datasets).
-- **Modern UI:** A futuristic "Cyber-Pink" glassmorphism interface built with **Gradio**.
+## 🚀 Project Vision
+Customer support mein sab se bari mushkil "Accuracy" aur "Response Time" ki hoti hai. **Vortex-Magenta** ko **Muhammad Bilal** ne isliye design kiya taake support tickets ko human-like precision ke sath analyze kiya ja sakay. Ye system sirf chatbot nahi hai, balki ek **Decision System** hai jo trusted documents ke mutabiq sahi faisla leta hai.
 
-## 🛠️ Technical Architecture
+---
 
-Vortex Magenta follows a modular architecture:
-1. **Frontend:** Gradio (Python) for the interactive UI.
-2. **Orchestration:** Google Antigravity principles for efficient task sequencing.
-3. **Knowledge Base:** Vector-based retrieval for RAG-driven context.
-4. **Backend:** Python logic for triage, safety checks, and bulk processing.
+## 🏗️ Technical Architecture
+### 1. Zero-Trust Retrieval (RAG)
+* **High-Precision Logic:** System sirf provided documentation se jawab nikalta hai taake hallucinations 0% ho jayein.
+* **Semantic Grounding:** Har ticket ko analyze karne ke liye relevant knowledge base chunks ko retrieve karta hai.
 
-## 📊 Performance & Testing
+### 2. Decision & Safety Layer
+* **Automated Triage:** Har ticket ko Status, Area, aur Priority mein classify karta hai.
+* **Safety Escalation:** Agar ticket mein risk ya sensitive data ho, to system ise foran human agent ko escalate kar deta hai.
 
-During the HackerRank Orchestration challenge, the system successfully processed **29 real-world support tickets** in bulk mode, achieving **100% accuracy** in status, area, and priority categorization.
+---
 
-## 🔧 Installation & Setup
+## 🛠️ Tech Stack
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Inference Engine** | Groq Cloud | Ultra-low latency processing |
+| **LLM Model** | Llama 3.3 70B | Reasoning & Ticket Analysis |
+| **UI Framework** | Gradio | Cyber-Pink Glassmorphism UI |
+| **Workflow** | Google Antigravity | Efficient Task Orchestration |
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/Vortex-Magenta-Support-Agent.git](https://github.com/your-username/Vortex-Magenta-Support-Agent.git)
+---
+
+## 📊 Performance
+During the **HackerRank Orchestrate** challenge, Vortex-Magenta ne bulk processing mode mein **29 real-world tickets** ko analyze kiya aur **100% accuracy** ke sath results generate kiye.
+
+---
+
+## 👨‍💻 Developer Profile
+**Muhammad Bilal** *Aspiring AI Developer | RAG Specialist | Competitive Programmer*
+
+### 🌐 Digital Presence:
+* **GitHub:** [📂 bkbilal009](https://github.com/bkbilal009)
+* **LinkedIn:** [💼 Muhammad Bilal](https://www.linkedin.com/in/muhammad-bilal-dev/)
+* **Portfolio:** [🚀 Vortex Series](https://github.com/bkbilal009/Vortex-Magenta-Support-Agent)
+
+---
+*Accuracy. Speed. Reliability.*
